@@ -1,4 +1,6 @@
-FROM node:12
+FROM alpine:3.12
+
+ENV NODE_VERSION 12.22.7
 
 WORKDIR /usr/src/
 
